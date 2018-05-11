@@ -1,0 +1,91 @@
+h1, h2{
+  text-align: center;
+  vertical-align: middle;
+  color: yellow;
+}
+h3{
+  text-align: center;
+  vertical-align: middle;
+  color: green;
+  text-decoration: underline;
+  background-color: orange;
+  margin-bottom: 10px;
+  max-width: 150px;
+  max-height: 50px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+}
+ div {
+  background-image: url("../img/Raja Ampat Dive Lodge.jpg");
+  background-position: top center;
+  background-size: 500px 100px;
+  position: relative;
+  top: 10px;
+  left: 400px;
+  width: 500px;
+  height: 100px;
+}
+
+.laporan {
+  position: absolute;
+  left: 140px;
+  top: 20px;
+  margin: 0px;
+}
+
+.tahun{
+  position: absolute;
+  left: 190px;
+  top: 60px;
+  margin: 0px;
+}
+
+body{
+  background-image: url("../img/istek2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 500px 320px;
+}
+
+
+
+table, th, td{
+  border: 2px solid black;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%
+}
+
+th{
+  background-color: yellow;
+  height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: blue;
+  font-size: 20px;
+}
+
+tr:hover{
+  background-color: red;
+}
+
+a{
+  text-decoration: none;
+  text-decoration-color: none;
+}
+a:link{
+  color: grey;
+}
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: yellow;
+}
